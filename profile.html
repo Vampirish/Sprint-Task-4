@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Login</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body onload="profileInfoDiv()">
+	<header>
+		<div class="textTwitter">TWITTER</div>
+		<div class="navBar">
+			<a class="navBarLink" href="#">Tweets</a>
+			<a class="navBarLink" href="profile.html" id="profileBarName"></a>
+			<a class="navBarLink" href="login.html" onclick="logout()">Logout</a>
+		</div>
+	</header>
+	<div id="showProfileName" class="showProfileName"></div>
+	<div class="mainBlock">
+		<div class="contentBlock" id="profileInfoDiv">
+			<span class="fillText">EMAIL:</span>
+			<div class="profileInfo" id="profileInfoEmail"></div>
+			<span class="fillText">FULL NAME:</span>
+			<div class="profileInfo" id="profileInfoFullName"></div>
+			<span class="fillText">COUNTRY:</span>
+			<div class="profileInfo" id="profileInfoCountry"></div>
+			<span class="fillText">BIRTHDATE:</span>
+			<div class="profileInfo" id="profileInfoBirthdate"></div>
+		</div>
+	</div>
+
+</body>
+<script type="text/javascript" src="script.js"></script>
+</html>

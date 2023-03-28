@@ -1,0 +1,95 @@
+body {
+	font-family: Arial;
+}
+
+header {
+	height: 70px;
+	background: #2C8391;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0px 20px 0px 20px;
+	margin-bottom: 15px;
+}
+
+.mainBlock {
+	display: flex;
+	justify-content: center;
+}
+
+.textTwitter {
+	color: white;
+	font-weight: bold;
+	font-size: 25px;
+}
+
+.navBarLink {
+	text-decoration: none;
+	font-weight: bold;
+	margin-left: 20px;
+	color: #92B8B6;
+}
+
+.navBarLink:link {
+	color: #92B8B6;
+}
+
+.navBarLink:active {
+	color: white;
+}
+
+.navBarLink:hover {
+	color: white;
+}
+
+.contentBlock {
+	width: 400px;
+	display: flex;
+	flex-direction: column;
+}
+
+.fillText {
+	margin-top: 15px;
+}
+
+.inpStyle {
+	margin-top: 15px;
+	height: 45px;
+	padding-left: 10px;
+	padding-right: 10px;
+	font-size: 16px;
+	box-sizing: border-box;
+	border: 1px solid lightgray;
+	outline: none;
+}
+
+.regButt {
+	height: 40px;
+	width: 110px;
+	color: white;
+	background: #00008B;
+	border: none;
+	font-size: 16px;
+}
+
+.showProfileName {
+	margin-top: 30px;
+	margin-bottom: 50px;
+	font-weight: bold;
+	font-size: 30px;
+	display: flex;
+	justify-content: center;
+}
+
+.profileInfo {
+	margin-top: 20px;
+	margin-bottom: 10px;
+	font-weight: bold;
+}
+
+.wrongAnswer {
+	display: flex;
+	align-items: center;
+	height: 40px;
+	color: red;
+}

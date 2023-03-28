@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Register</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<header>
+		<div class="textTwitter">TWITTER</div>
+		<div class="navBar">
+			<a class="navBarLink" href="#">Tweets</a>
+			<a class="navBarLink" href="login.html">Login</a>
+			<a class="navBarLink" href="register.html">Register</a>
+		</div>
+	</header>
+	<div class="mainBlock">
+		<div class="contentBlock">
+			<span class="fillText">EMAIL:</span>
+			<input class="inpStyle" type="email" id="regEmail">
+			<span class="fillText">PASSWORD:</span>
+			<input class="inpStyle" type="password" id="regPassword">
+			<span class="fillText">FULL NAME:</span>
+			<input class="inpStyle" type="text" id="regFullName">
+			<span class="fillText">COUNTRY:</span>
+			<select class="inpStyle" id="regCountry">
+				<option>Kazakhstan</option>
+				<option>USA</option>
+				<option>China</option>
+				<option>Russian</option>
+			</select>
+			<span class="fillText">BIRTHDATE:</span>
+			<input class="inpStyle" type="date" id="regBirthdate">
+			<div class="wrongAnswer" id="wrongReg"></div>
+			<button class="regButt" onclick="checkInputs()">REGISTER</button>
+		</div>
+	</div>
+	<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
